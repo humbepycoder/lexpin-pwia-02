@@ -94,3 +94,12 @@ console.log(
 console.log(
   `Precio unitario del "Café Tostado" de la tercera compra: ${ventas[2].items[1].precio_unitario}`,
 );
+
+
+
+let i = 0
+
+while (i <= 10) {
+  console.log(`${i} * 7 = ${i * 7}`);
+  i++
+} 

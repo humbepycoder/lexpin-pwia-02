@@ -237,3 +237,10 @@ if (purchaseAmount >= 100) {
 }
 
 console.log(`Final purchase amount: $${finalAmount}`);
+
+let fruits = ["Passion Fruit", "Mango", "Pineapple", "Watermelon"];
+
+fruits.splice(0, 4, "Papaya");
+
+console.log(`the frutes: ${fruits}`);
+
